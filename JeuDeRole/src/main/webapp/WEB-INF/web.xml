@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  		 xmlns="https://java.sun.com/xml/ns/javaee" 
+		 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+		 version="3.0">
+  
+  <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>                   <!--Appliquer a tous les fichiers .jsp -->
+            <include-prelude>/WEB-INF/taglibs.jsp</include-prelude> <!-- Mettre le contenue de taglibs.jsp en debut de chauqe fichier -->
+        </jsp-property-group>
+  </jsp-config> 
+  
+
+
+
+  
+</web-app>
